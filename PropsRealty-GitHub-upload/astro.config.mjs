@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://web4propsrealty.github.io',
-  base: '/PropsRealty',
+  site: 'https://www.propsrealty.ca',
+  base: '/',
   output: 'static',
   vite: { plugins: [tailwindcss()] },
 });
